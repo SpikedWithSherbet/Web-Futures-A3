@@ -1,8 +1,19 @@
-* {
+html {
+
+  scroll-behavior: smooth;
+}
+
+* 
+
+{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  a {
+
+    text-decoration: none;
+  }
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,18 +22,185 @@
   .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid darkslategray; /* The typwriter cursor */
+    width: min-content;
+    font-family: "EB Garamond", serif;
     white-space: nowrap; /* Keeps the content on a single line */
-    margin-left: 1.5em; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .20em; /* Adjust as needed */
+    margin-left: 1em; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
   }
 
+
+  h1 {
+
+    margin-left: 1.2em;
+    font-size: 2.5rem;
+    font-family: "EB Garamond", serif;
+  }
+
+  .fabletitle {
+
+    margin-top: 0;
+    padding-top: 2rem;
+  }
+
+  .castheading
+  {
+    margin-left: 2.9em;
+  }
+
+  h2 {
+
+    font-size: 1.1rem;
+    color: white;
+
+  }
+
+  .introcontainer {
+
+    display: flex;
+    gap: 15rem;
+    background-color: #E2725B;
+  }
+
+  .introcontainer img
+  {
+
+    height: 10%;
+    width: 20%;
+
+  }
+
+  .paragraphcontainer {
+
+    display: block;
+    overflow-y: hidden;
+    text-wrap: balance;
+
+  }
+
+  .fablestorycontainer p{
+
+    padding-bottom: 1em;
+    width: 66%;
+  }
+
+
+
+  .fablecontainer {
+
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding-bottom: 5rem;
+  }
+
+  .fablecontainer h1 {
+
+    margin-left: 6rem;
+    margin-top: 0em;
+    padding-top: 1em;
+  }
+
+  .fablecards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  
+
+  
+
+  .fablecards .card {
+
+    background-color: #003366;
+    height: 20rem;
+    width: 20rem;
+    padding: 1em;
+    margin: 0.5em;
+    border: 1px solid black;
+    filter: drop-shadow(-3px 4px 11px #000000);
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+    .fablecards .card:hover {
+
+      filter: brightness(75%)
+    }
+
+    #card1 {
+      background-image: url("tortoisehare.png");
+    }
+
+    #card2 {
+      background-image: url("lionmouse.png");
+    }
+
+    #card3 {
+      background-image: url("foxlion.png");
+    }
+
+    #card4 {
+      background-image: url("boywolf.png");
+    }
+
+.fablecards {
+
+  scale: 0.8; opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range-start: 200px;
+  animation-range-end: 500px;
+}
+
+@keyframes fade-in {
+
+  to {scale: 1; opacity: 1; }
+}
+    
+
+.card img {
+
+  object-fit: cover;
+  border-radius: 5%;
+    
+}
+
+.card h2{
+
+  font-family: "EB Garamond", serif;
+  margin-top: 15rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3 {
+  padding-top: 0;
+  margin-left: 3rem;
+}
+
+.moral {
+
+  margin-left: 1.5em;
+  font-size: 1.7rem;
+}
+
+.cardtext {
+
+  margin-bottom: 2em;;
+}
+
   p {
 
     margin-left: 3em;
-    width: 66%;
+    padding-bottom: 2em;
+    line-height: 1.5em;
+    
   }
   
   /* The typing effect */
@@ -47,8 +225,11 @@
   .topnav a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(49, 49, 49);
     text-align: center;
+    font-family: "EB Garamond", serif;
+    font-size: larger;
+    font-weight: bolder;
     padding: 1em 1em;
     text-decoration: none;
   }
@@ -61,7 +242,10 @@
   
   /* Style the content */
   .content {
-    background-color: #f5f5f5;
+    background-color: #E2725B;
+    color: #f5f5f5;
+    height: fit-content;
+    padding-bottom: 3rem;
   }
   
   /* Style the footer */
@@ -69,3 +253,177 @@
     background-color: #f1f1f1;
     padding: 10px;
   }
+
+  .castcontainer {
+
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+  }
+  .castcard {
+
+    width: 7rem;
+    height: 7rem;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 1em;
+    margin-bottom: 2rem;
+    display: block;
+    
+
+  }
+
+  .casticon{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
+
+
+  }
+
+  .line {
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .castbutton {
+
+
+    height: 17rem;
+    width: 30rem;
+    color: white;
+    background-color: #E2725B;
+    border-color: rgb(49, 49, 49);
+    border-radius: 2em;
+    overflow: hidden;
+  }
+
+  .footer {
+    color: #f5f5f5;
+    background-color: rgb(49, 49, 49);
+  }
+  @media screen and (max-width: 1003px) {
+
+    .fablecards
+     {
+
+      grid-template-columns: repeat(2, 1fr);
+
+     }
+
+     .castcontainer {
+
+      grid-template-columns: repeat(3, 1fr);
+     }
+    
+
+  }
+
+  @media screen and (max-width: 769px) {
+
+    .content {
+      height: auto;
+      width: auto;
+    }
+
+    
+
+     p {
+
+      margin-left: 2em;
+      margin-right: 2em;
+      
+    }
+
+    h1 {
+
+      margin-left: 1em;
+      margin-right: 2em;
+
+    }
+
+
+    .fablecards
+     {
+
+      grid-template-columns: repeat(1, 1fr);
+
+     }
+     
+     .castcontainer {
+
+      margin-left: 2rem;
+      justify-items: left;
+     }
+
+     .castcard {
+
+      height: 65%;
+      /* width: 65%; */
+     }
+
+     .castbutton {
+
+      height: min-content;
+      width: fit-content;
+     }
+
+     .typewriter h1 {
+
+      white-space: wrap; 
+      animation: none;
+      border-right: none;
+     }
+    
+
+  }
+
+  @media screen and (max-width: 426px) {
+
+    .content {
+      height: auto;
+      width: auto;
+    }
+
+    .introcontainer img{
+      display: none;
+    }
+
+
+    .introcontainer img{
+      height: 45%;
+      width: 45%;
+    }
+
+    .fablecards
+     {
+
+      grid-template-columns: repeat(1, 1fr);
+
+     }
+
+     .fablecards .card {
+
+      width: 95%;
+     }
+
+     h1 {
+
+      font-size: 2rem;
+     }
+
+     .castcard {
+
+      height: 65%;
+      width: 65%;
+     }
+
+  }
+
+ 
+
+  

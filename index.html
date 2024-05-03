@@ -1,35 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Aesop's Fables</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.1.5/build/spline-viewer.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:wght@300&family=MedievalSharp&family=Roboto+Condensed:wght@300&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#fablesection">Fables</a>
+  <a href="#cast">Cast</a>
 </div>
 
 <div class="content">
 
     <spline-viewer url="https://prod.spline.design/CQSAkHRUvAdWW-Xo/scene.splinecode"></spline-viewer>
 
-<div class = "typewriter">
   <h1>Learn about the many creative stories penned by &AElig;sop. </h1>
 
+  <div class = "introcontainer"> 
+
+  <div class = "paragraphcontainer">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, gravida vitae sodales ut, pulvinar a sem. Sed fermentum vulputate velit, eget rutrum metus ultricies quis. Sed vestibulum vestibulum risus, non sodales leo cursus nec. Integer sagittis ante nisi. In at enim ac lectus venenatis maximus. Vivamus nunc sem, ornare in risus ac, ornare sodales enim. In quis ipsum suscipit, aliquet ipsum sed, lacinia est. Etiam eu ligula tortor. Cras id finibus odio. Sed ut tristique enim. Vivamus tellus nunc, vulputate ut elit tristique, iaculis molestie metus.</p>
+  
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, gravida vitae sodales ut, pulvinar a sem. Sed fermentum vulputate velit, eget rutrum metus ultricies quis. Sed vestibulum vestibulum risus, non sodales leo cursus nec. Integer sagittis ante nisi. In at enim ac lectus venenatis maximus. Vivamus nunc sem, ornare in risus ac, ornare sodales enim. In quis ipsum suscipit, aliquet ipsum sed, lacinia est. Etiam eu ligula tortor. Cras id finibus odio. Sed ut tristique enim. Vivamus tellus nunc, vulputate ut elit tristique, iaculis molestie metus.</p>
+  </div>
+  <img src="AesopIllustration.png">
+</div>
+
 
 </div>
+
+<div class = "fablecontainer" id = "fablesection">
+
+  <h1> FABLES</h1>
+<section class = "fablecards">
+
+  <div class = "card" id="card1">
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Tortoise and the Hare</h2> </a>
+  </div>
+
+  <div class = "card" id="card2">
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Lion and the Mouse</h2> </a>
+  </div>
+
+  <div class = "card" id="card3">
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Fox and the Lion</h2> </a>
+  </div>
+
+  <div class = "card" id="card4">
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Boy who Cried Wolf</h2> </a>
+  </div>
+
+  <div class = "card" id="card1">
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Tortoise and the Hare</h2> </a>
+  </div>
+
+  <div class = "card" id="card1"> 
+    <a href="fable.html"> <!-- <img src = "lionmouse.jpg" width="100%" height="70%" alt="Tortoise and Hare"> -->
+    <h2>The Tortoise and the Hare</h2> </a>
+  </div>
+  
+</section>
+</div>
+
+<h1 class ="castheading">CAST</h1>
+<section class = "castcontainer" id="cast">
+
+
+  </div> 
+
+  <div class = "castcard" >
+
+    
+  
+    <input type = "image" src="fox.png" class="casticon" popovertarget="cb1">
+  
+    <div class = "castbutton" popover id = "cb1">
+      <div class="line">
+      <h3> Fox </h3>
+      <button popovertarget="cb1" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+
+    <div class = "castbutton" popover id = "cb2">
+      <div class="line">
+      <h3> Hare </h3>
+      <button popovertarget="cb2" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+
+    <div class = "castbutton" popover id = "cb3">
+      <div class="line">
+      <h3> Tortoise </h3>
+      <button popovertarget="cb3" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+
+    <div class = "castbutton" popover id = "cb4">
+      <div class="line">
+      <h3> Lion </h3>
+      <button popovertarget="cb4" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+
+    <div class = "castbutton" popover id = "cb5">
+      <div class="line">
+      <h3> Wolf </h3>
+      <button popovertarget="cb5" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+
+    <div class = "castbutton" popover id = "cb6">
+      <div class="line">
+      <h3> Mouse </h3>
+      <button popovertarget="cb6" popoveraction="hide">X</button></div>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper accumsan magna accumsan iaculis. Duis non sem non magna interdum venenatis. Donec et cursus metus. Maecenas ante tortor, accumsan eget pellentesque vel, lacinia vitae risus. Morbi ut nisi sem. Phasellus sit amet blandit erat, nec porttitor augue.</p>
+    </div>
+    
+  
+  
+  
+    </div> 
+
+    <div class = "castcard" id="Hare">
+
+    
+  
+      <input type = "image" src="hare.png" class="casticon" popovertarget="cb2">
+
+
+      
+    
+    
+    
+      </div> 
+
+      <div class = "castcard" id="Tortoise">
+
+    
+  
+        <input type = "image" src="tortoise.png" class="casticon" popovertarget="cb3">
+
+
+      
+        
+      
+      
+      
+        </div> 
+
+        <div class = "castcard" id="Lion">
+
+    
+  
+          <input type = "image" src="lion.png" class="casticon" popovertarget="cb4">
+
+        
+        
+          
+        
+        
+        
+          </div> 
+
+          <div class = "castcard" id="Wolf">
+
+    
+  
+            <input type = "image" src="wolf.png" class="casticon" popovertarget="cb5">
+
+          
+          
+            
+          
+          
+          
+            </div> 
+            <div class = "castcard" id="Mouse" >
+
+    
+  
+              <input type = "image" src="mouse.png" class="casticon" popovertarget="cb6">
+          
+            
+              
+            
+            
+            
+              </div> 
+
+
+
+  
+
+
+
+
+
+
+</section>
+
+
+
+
 
 </div>
 
 <div class="footer">
-  <p>Footer</p>
+  Created by Euan Todd (u3260701) at the University of Canberra.
 </div>
 
 </body>
