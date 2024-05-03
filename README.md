@@ -1,5 +1,11 @@
 ﻿# <a name="_976xo7219f03"></a>**Front-End Web Design - Web Futures Reflection**
 
+Disclaimers:
+
+- I reccomend you use Google Chrome for viewing this for full compatibility.
+
+- I am unsure how the Spline viewer will run on lower-performing systems. I have made a branch of the website on the GitHub page without the Spline viewer for marking purposes.
+
 ## <a name="_18thnmo2mtpf"></a>Design Inspirations
 
 I first started with taking design inspirations from Aesop’s Fables for this project. I had recently picked up and read through them from Word Cloud Classics, and it inspired me to make a website based on the animals depicted, as well as greek colours and architecture, with a modern spin.
@@ -80,7 +86,6 @@ To navigate to parts of the pages quicker, I used anchor points for the navigati
 
 - Unfortunately, I had a difficulty with setting the margins properly for different displays. I have a few redundancies for headings, but they are required to re-adjust some margins to be in line.
 
-- I am unsure how the Spline viewer will run on lower-performing systems. I have made a branch of the website on the GitHub page without the Spline viewer for marking purposes.
 
 - I have added alts for all images for accessibility purposes. 
 
