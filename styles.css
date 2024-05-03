@@ -7,7 +7,7 @@ html {
 
 {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
   }
   
   a {
@@ -16,7 +16,7 @@ html {
   }
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
   }
   
   .typewriter h1 {
@@ -134,34 +134,40 @@ html {
     }
 
     #card1 {
-      background-image: url("tortoisehare.png");
+      background-image: url("assets/tortoisehare.png");
+      alt: "diorama of a tortoise";
     }
 
     #card2 {
-      background-image: url("lionmouse.png");
+      background-image: url("assets/lionmouse.png");
+      alt: "diorama of a mouse";
     }
 
     #card3 {
-      background-image: url("foxlion.png");
+      background-image: url("assets/foxlion.png");
+      alt: "diorama of a fox";
     }
 
     #card4 {
-      background-image: url("boywolf.png");
+      background-image: url("assets/boywolf.png");
+      alt: "diorama of a wolf";
     }
 
-.fablecards {
+@media (prefers-reduced-motion: no-preference) {
+  .fablecards {
 
-  scale: 0.8; opacity: 0;
-  animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range-start: 200px;
-  animation-range-end: 500px;
-}
+    scale: 0.8; opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: 200px;
+    animation-range-end: 500px;
+  }
 
-@keyframes fade-in {
+  @keyframes fade-in {
 
-  to {scale: 1; opacity: 1; }
-}
+    to {scale: 1; opacity: 1; }
+  }
+  }
     
 
 .card img {
@@ -185,7 +191,7 @@ h3 {
 }
 
 .moral {
-
+  font-family: "Dancing Script", cursive;
   margin-left: 1.5em;
   font-size: 1.7rem;
 }
