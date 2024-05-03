@@ -106,5 +106,7 @@ Wolf Icon made by PLANBSTUDIO on FlatIcon - <https://www.flaticon.com/free-icon/
 
 Aesop Illustration - Public Domain
 
+Aesop. (2013). Aesop’s Fables (V. Jones, Trans.). Printer’s Row Publishing Group. (Original work published 620 B.C.E.)
+
 
 
