@@ -80,7 +80,7 @@ To navigate to parts of the pages quicker, I used anchor points for the navigati
 
 - Unfortunately, I had a difficulty with setting the margins properly for different displays. I have a few redundancies for headings, but they are required to re-adjust some margins to be in line.
 
-- I am unsure how the Spline viewer will run on lower-performing systems. I have made a fork of the website on the GitHub page without the Spline viewer for marking purposes.
+- I am unsure how the Spline viewer will run on lower-performing systems. I have made a branch of the website on the GitHub page without the Spline viewer for marking purposes.
 
 - I have added alts for all images for accessibility purposes. 
 
